@@ -412,8 +412,8 @@ body {
     }
 
     .cardCover {
-        width: 400px;
-        height: auto;
+        width: 500px;
+        height: 700px;
     }
 
     .text {
@@ -444,8 +444,8 @@ body {
     }
 
     .cardCover {
-        width: 90%;
-        height: auto;
+        width: 500px;
+        height: 700px;
         flex-direction: column;
         padding: 20px;
     }
