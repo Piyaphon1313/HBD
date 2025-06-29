@@ -389,3 +389,88 @@ strong {
 /*  */
 /* ai help device compatable */
 /* Default: Desktop / iPad */
+
+/* Add this at the end of style.css */
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .firstHead,
+    .secondHead {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        word-spacing: 0.3cap;
+        letter-spacing: 0.2cap;
+    }
+
+    .cardCover {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .topHead {
+        position: static;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .text {
+        position: static;
+        width: 100%;
+        font-size: medium;
+        text-align: left;
+    }
+
+    .name {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .herPicture2 {
+        position: static;
+        margin-top: 20px;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+
+    .flower,
+    .star,
+    .sun {
+        display: none;
+    }
+
+    .crop-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .herName {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .main2 {
+        padding: 10px;
+    }
+
+    .img {
+        gap: 10px;
+    }
+
+    .cake {
+        width: 250px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+}
